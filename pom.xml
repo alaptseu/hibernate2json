@@ -19,15 +19,15 @@
     <licenses>
         <license>
             <name>GNU</name>
-            <url>https://github.com/alaptseu/pojoutils/blob/master/LICENSE</url>
+            <url>https://github.com/alaptseu/hibernate2json/blob/master/LICENSE</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
 
     <scm>
         <url>https://github.com/alaptseu/pojoutils</url>
-        <connection>scm:git:git@github.com:alaptseu/pojoutils.git</connection>
-        <developerConnection>scm:git:git@github.com:alaptseu/pojoutils.git</developerConnection>
+        <connection>scm:git:git@github.com:alaptseu/hibernate2json.git</connection>
+        <developerConnection>scm:git:git@github.com:alaptseu/hibernate2json.git</developerConnection>
     </scm>
 
     <distributionManagement>
