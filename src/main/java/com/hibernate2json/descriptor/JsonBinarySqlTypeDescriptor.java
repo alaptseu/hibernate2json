@@ -1,5 +1,6 @@
 package com.hibernate2json.descriptor;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import org.hibernate.type.descriptor.ValueBinder;
 import org.hibernate.type.descriptor.WrapperOptions;
 import org.hibernate.type.descriptor.java.JavaTypeDescriptor;

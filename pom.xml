@@ -6,7 +6,11 @@
 
     <groupId>com.github.alaptseu</groupId>
     <artifactId>hibernate2json</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.1-SNAPSHOT</version>
+
+    <name>hibernate2json</name>
+    <description>Maping JSON objects using generic Hibernate Types</description>
+    <url>https://github.com/alaptseu/hibernate2json</url>
 
     <developers>
         <developer>
@@ -25,7 +29,7 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/alaptseu/pojoutils</url>
+        <url>https://github.com/alaptseu/hibernate2json</url>
         <connection>scm:git:git@github.com:alaptseu/hibernate2json.git</connection>
         <developerConnection>scm:git:git@github.com:alaptseu/hibernate2json.git</developerConnection>
     </scm>
@@ -86,6 +90,21 @@
                     <nexusUrl>https://oss.sonatype.org/</nexusUrl>
                     <autoReleaseAfterClose>true</autoReleaseAfterClose>
                 </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.6</version>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
 
             <plugin>
