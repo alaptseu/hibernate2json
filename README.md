@@ -1,6 +1,8 @@
 # hibernate2json  
 
-The implementaion is taken from https://vladmihalcea.com/2016/06/20/how-to-map-json-objects-using-generic-hibernate-types/
+The implementaion is taken from [this article](https://vladmihalcea.com/how-to-map-json-objects-using-generic-hibernate-types/).
+
+> The [hibernate-types](https://github.com/vladmihalcea/hibernate-types/) open-source project, not onlythat it offers JSON support, but it allows you to persist ARRAY, HStore, Range, Interval, Range, Inet and many other custom types.
 
 To use add maven dependency:
 
